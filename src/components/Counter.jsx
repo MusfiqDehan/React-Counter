@@ -34,7 +34,7 @@ const Counter = () => {
       <button
         style={btnStyle}
         onClick={() => {
-          setCount(count + 1);
+          setCount(count - 1);
           setClickCount(clickCount + 1);
         }}
       >
