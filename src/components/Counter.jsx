@@ -29,7 +29,7 @@ const Counter = () => {
       </button>
 
       <h1>{count}</h1>
-      <h2>You have clicked total {clickCount} times</h2>
+      <p>You have clicked total {clickCount} times</p>
 
       <button
         style={btnStyle}
